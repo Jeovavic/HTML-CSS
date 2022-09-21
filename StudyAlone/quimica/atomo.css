@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, san-serif;
+	background: #e6e6e6;
+}
+
+#area-cabecalho{
+	background-color: #00BFFF;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-principal{
+	width: 1020px;
+	height: 100%;
+	margin: 0 auto;
+	background: white;
+}
+#areatextos{background:white;}
+
+
+
+a{text-decoration: none;
+}
+a:link, a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+a:hover{
+	color: #0000CD;
+	background: #FFF;
+}
+
+h2{
+	text-align: center;
+	color: #CCC;
+	margin-bottom: 20px;
+	border-bottom: 3px dotted #CCC; 
+}
+h3{
+	border-top: 2px solid #CCC; 
+	text-align: center;
+}
+
+.intro{
+	float: left;
+	background: white;
+}
+.intro2{
+	float: right;
+	padding: 60px;
+	background: white;
+}
+img{border-radius: 60px; float: right;}
+
+.titulo{
+	text-align: center;
+	border-top: none;	
+}
+p{
+	margin-left: 10px;
+}
+.intro3{
+	float: left;
+	padding: 60px;
+	background: white;
+}
+ol{
+	margin-left:20px;
+	font-size: 0.8em;
+}
+.experimento{
+	
+	float:left;
+	 margin-left: 130px;
+}
+#rodape{
+	text-align:center;
+	color: white;
+	background:black;
+	padding: 15px;
+	clear: both;
+}
